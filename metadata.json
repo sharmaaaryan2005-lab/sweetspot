@@ -1,0 +1,6 @@
+{
+  "name": "Sweet Spot",
+  "description": "Diabetic-safe food ordering app that filters and labels dishes by glycemic impact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

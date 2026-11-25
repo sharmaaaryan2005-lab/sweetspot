@@ -1,0 +1,53 @@
+export const DESIGN_TOKENS = {
+  colors: {
+    brand: {
+      primary: '#0E6B5C',
+      primaryHover: '#0A5448',
+      softSurface: '#E3F2EE',
+      softSurfaceHover: '#D5EBE5',
+    },
+    safety: {
+      safe: '#0E6B5C',
+      safeBgLight: '#E3F2EE',
+      safeBgDark: '#12332C',
+      borderline: '#B8791B',
+      borderlineHover: '#9C6615',
+      borderlineBgLight: '#FDF4E7',
+      borderlineBgDark: '#2E2212',
+      unsafe: '#C0392B',
+      unsafeBgLight: '#FBECEB',
+      unsafeBgDark: '#331715',
+    },
+    light: {
+      background: '#FAF7F0',
+      desktopBackdrop: '#EFECE3',
+      surface: '#FFFFFF',
+      surfaceMuted: '#EAE6DC',
+      textPrimary: '#162420',
+      textSecondary: '#4C5C56',
+      textMuted: '#5F6F69',
+      hairline: '#E6E1D6',
+    },
+    dark: {
+      background: '#0F1917',
+      desktopBackdrop: '#09100E',
+      surface: '#162421',
+      surfaceMuted: '#20312D',
+      textPrimary: '#EEF5F2',
+      textSecondary: '#B3C5BE',
+      textMuted: '#899E96',
+      hairline: '#273934',
+    },
+  },
+  typography: {
+    display: 'Plus Jakarta Sans',
+    body: 'DM Sans',
+  },
+  radii: {
+    sm: '8px',
+    md: '12px',
+    lg: '16px',
+    xl: '24px',
+    frame: '36px',
+  },
+} as const;
